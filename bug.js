@@ -1,0 +1,1 @@
+This error occurs when using the Expo Camera API with a custom `Camera` component and attempting to access the `takePictureAsync` method before the camera is fully initialized.  This often happens if you try to trigger a photo capture immediately within the `useEffect` hook, before the component has mounted and the camera is ready.
